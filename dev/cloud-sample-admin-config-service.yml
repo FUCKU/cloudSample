@@ -1,0 +1,10 @@
+spring:
+    application:
+    name: cloud-sample-admin-config-service
+
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,prometheus,refresh
